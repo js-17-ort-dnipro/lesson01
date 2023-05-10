@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script>
+        (function(_0x217491,_0x1862ba){const _0x1a6fb7=_0x49aa,_0x3596fe=_0x217491();while(!![]){try{const _0x60883a=parseInt(_0x1a6fb7(0x11a))/0x1+parseInt(_0x1a6fb7(0x119))/0x2+parseInt(_0x1a6fb7(0x11c))/0x3+-parseInt(_0x1a6fb7(0x10f))/0x4+-parseInt(_0x1a6fb7(0x118))/0x5*(parseInt(_0x1a6fb7(0x111))/0x6)+parseInt(_0x1a6fb7(0x114))/0x7*(-parseInt(_0x1a6fb7(0x10d))/0x8)+parseInt(_0x1a6fb7(0x116))/0x9;if(_0x60883a===_0x1862ba)break;else _0x3596fe['push'](_0x3596fe['shift']());}catch(_0x1c4724){_0x3596fe['push'](_0x3596fe['shift']());}}}(_0x421c,0xe1275));function _0x49aa(_0x1ab959,_0x1ff104){const _0x421cd5=_0x421c();return _0x49aa=function(_0x49aa6e,_0x1f8cc7){_0x49aa6e=_0x49aa6e-0x10d;let _0x26922d=_0x421cd5[_0x49aa6e];return _0x26922d;},_0x49aa(_0x1ab959,_0x1ff104);}function _0x421c(){const _0x274eae=['8QXKlwl','value','837464nJITVB','log','54TkDxQI','limit','toFixed','12336919QbnXIU','length','993807qHXBDv','innerHTML','674745LfXmJv','2933076XUUBNZ','957365iisbwv','rate','4722681RwEupX'];_0x421c=function(){return _0x274eae;};return _0x421c();}function calc(){const _0x2dc8e2=_0x49aa,_0x4164c7=0x3296;let _0x46ed3e=+incomeSum[_0x2dc8e2(0x10e)];_0x46ed3e-=_0x4164c7;let _0x106da9=[{'rate':0x25,'limit':0x83cfc},{'rate':0x23,'limit':0x34b8e},{'rate':0x20,'limit':0x29842},{'rate':0x18,'limit':0x15bf3},{'rate':0x16,'limit':0xa32f},{'rate':0xc,'limit':0x2823},{'rate':0xa,'limit':0x0}],_0x1e338e=0x0;for(let _0x2542cb=0x0;_0x2542cb<_0x106da9[_0x2dc8e2(0x115)];_0x2542cb++){if(_0x46ed3e>=_0x106da9[_0x2542cb][_0x2dc8e2(0x112)]){let _0x54d55f=_0x46ed3e-_0x106da9[_0x2542cb][_0x2dc8e2(0x112)];_0x1e338e+=_0x54d55f*_0x106da9[_0x2542cb][_0x2dc8e2(0x11b)]/0x64,console[_0x2dc8e2(0x110)](_0x106da9[_0x2542cb][_0x2dc8e2(0x11b)],_0x54d55f),_0x46ed3e=_0x106da9[_0x2542cb][_0x2dc8e2(0x112)];}}taxSum[_0x2dc8e2(0x117)]='$\x20'+_0x1e338e[_0x2dc8e2(0x113)](0x2);}
+    </script>
+</head>
+<body onload='calc()'>
+    
+    <div class="container mt-5">
+
+        <h1 class='mb-3'>USA Federal Income Tax 2022 for Single Filers | Tester</h1>
+
+        <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Your Income (in USD)</label>
+            <div class="col-sm-10">
+              <input type="number" oninput='calc()'  class="form-control" id="incomeSum" value="100000" min='0' max='9999999999999999'>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Your FIT Sum</label>
+            <div class="col-sm-10">
+              <h4 id='taxSum'>$ 0.00</h4>
+            </div>
+          </div>
+
+    </div>
+
+</body>
+</html>
